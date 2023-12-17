@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.resume-sec {
+	animation-name: backgroundColorPalette;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+  min-height: 100vh;
+  padding-top: 70px;
+  margin: 0 auto;
+}
+@keyframes backgroundColorPalette {
+	0%, 75% {
+		background: #003366; /* Dark Blue */
+    color: #ffffff; /* White text color */
+	}
+	50% {
+		background: #ffcc00; /* Yellow */
+    color: #000000; /* Black text color */
+	}
+  100% {
+    background: #660066; /* Purple */
+    color: #ffffff; /* White text color */
+  }
+}
+button {
+  margin: 0 auto;
+  border-radius: 10px;
+  font-family: "Poppins", "cursive";
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 15px;
+  /* background-color:#020706; */
+  border-color: none;
+  background: #020706;
+  color: aliceblue;
+  /* color: rgb(255 255 255 / 55%); */
+  text-shadow: 1px 1px 1px #020706, 1px 2px 1px #020706, 1px 3px 1px #020706,
+    1px 4px 1px #020706, 1px 5px 1px #020706, 1px 6px 1px #020706,
+    1px 6px 3px hsl(0deg 0% 6% / 40%), 1px 10px 5px hsl(0deg 0% 6% / 20%),
+    1px 12px 15px hsl(0deg 0% 6% / 20%), 1px 18px 30px hsl(0deg 0% 6% / 40%);
+}
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  border-color: none;
+  color: white;
+}
+
+.skills-section1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 36px;
+  margin: 5px;
+  padding: 5px;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.skill {
+  text-align: center;
+  padding: 5px;
+  text-shadow: 1px 1px 1px #00ffcc, 1px 2px 1px #020706, 1px 3px 1px #020706,
+    1px 4px 1px #020706, 1px 5px 1px #020706, 1px 6px 1px #020706,
+    1px 6px 3px hsl(0deg 0% 6% / 40%), 1px 10px 5px hsl(0deg 0% 6% / 20%),
+    1px 12px 15px hsl(0deg 0% 6% / 20%), 1px 18px 30px hsl(0deg 0% 6% / 40%);
+}
+
+@media only screen and (max-width: 375px) {
+  button {
+    padding: 10px;
+  }
+}
