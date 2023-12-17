@@ -1,0 +1,29 @@
+.nav-link{
+    color: #fff;
+    opacity: 1;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 50px;
+    transition: .5s;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    padding: 10px 30px;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 9;
+    background: #1a1a1a;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+}
+
+.link a:hover, .link.active a{
+    opacity: 1;
+}
