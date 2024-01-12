@@ -15,7 +15,7 @@
     color: #ffffff; /* White text color */
 	}
 	50% {
-		background: #ffcc00; /* Yellow */
+		background: #12d500; /* Yellow */
     color: #000000; /* Black text color */
 	}
   100% {
@@ -48,12 +48,12 @@ button {
 button:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-a:link,
+
 a:visited,
 a:active {
   text-decoration: none;
   border-color: none;
-  color: white;
+  color: #ff00ff;
 }
 
 .skills-section1 {

@@ -11,6 +11,7 @@ const Navigation = (props) => {
         <Navbar.Collapse className="nav-link" id="responsive-navbar-nav">
           <Nav>
             <Nav.Link
+            href="about"
               onClick={() => {
                 props.changePage("About");
               }}

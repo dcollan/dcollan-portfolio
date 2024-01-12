@@ -9,9 +9,10 @@ import {
         title: "JoyFindR",
         image: joyfindr,
         description:
-          "Group collaboration. RESTful API wep app that acts as a game library storage using two different APIs: https://rawg.io/apidocs and https://developers.giphy.com/. Given that a user enters what games they wish to search, the application will also return memes based on the output of the game description using both APIs.",
+          "RESTful API wep app that acts as a game library storage using two different APIs: https://rawg.io/apidocs and https://developers.giphy.com/. Given that a user enters what games they wish to search, the application will also return memes based on the output of the game description using both APIs.",
         githuburl: "https://github.com/stevendreed/JoyFindR",
         deployurl: "https://stevendreed.github.io/JoyFindR/",
+        tags: ["#HTML ", "#CSS ", "#JavaScript ", "#RESTful APIs"]
       }
     ];
   
@@ -29,6 +30,7 @@ import {
                   />
                   <div className="card-body">
                     <h5 className="card-title">{project.title}</h5>
+                    <h6>{project.tags}</h6>
                     <p className="card-text">{`${project.description.substring(
                       0,
                       70

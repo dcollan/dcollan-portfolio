@@ -21,7 +21,6 @@
     background: #1a1a1a;
     font-size: 1.3rem;
     font-family: 'Poppins', sans-serif;
-    border-radius: 5px;
 }
 
 .link a:hover, .link.active a{
