@@ -6,7 +6,6 @@
 	animation-direction: alternate;
 	animation-timing-function: linear; 
   min-height: 100vh;
-  padding-top: 70px;
   margin: 0 auto;
 }
 @keyframes backgroundColorPalette {
