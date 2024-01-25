@@ -12,8 +12,11 @@ const Resume = () => {
         <div>
           <ul className="skills-section1">
             <li>Java</li>
+            <li>Ruby</li>
+            <li>Swift</li>
             <li>C</li>
             <li>C++</li>
+            <li>C#</li>
             <li>Java</li>
             <li>Python</li>
             <li>JavaScript</li>
@@ -25,9 +28,13 @@ const Resume = () => {
             <li>HTML5</li>
             <li>CSS</li>
             <li>XML</li>
+            <li>Angular</li>
+            <li>Spring Boot</li>
+            <li>PHP</li>
             <li>React.js</li>
+            <li>ASP.Net</li>
+            <li>Oracle</li>
             <li>Bootstrap</li>
-            <li>Responsive Web design</li>
             <li>jQuery</li>
           </ul>
         </div>
@@ -35,6 +42,7 @@ const Resume = () => {
         <div>
           <ul className="skills-section1">
             <li>MySQL</li>
+            <li>PostgreSQL</li>
             <li>MongoDB</li>
             <li>Node.js</li>
             <li>Express.js</li>
@@ -50,11 +58,14 @@ const Resume = () => {
             <li>Algorithms</li>
           </ul>
         </div>
-        <h3 className="skill">Version Control</h3>
+        <h3 className="skill">Web Services</h3>
         <div>
           <ul className="skills-section1">
             <li>Git</li>
             <li>Github</li>
+            <li>Azure</li>
+            <li>AWS</li>
+            <li>GCP</li>
           </ul>
         </div>
 

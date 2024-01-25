@@ -1,5 +1,9 @@
 import {
-    joyfindr
+    joyfindr,
+    socialgoalstracker,
+    kryptorun,
+    dcollan_headgear,
+    charms
   } from "../../assets/images";
   import "./projects.css";
   
@@ -13,6 +17,42 @@ import {
         githuburl: "https://github.com/stevendreed/JoyFindR",
         deployurl: "https://stevendreed.github.io/JoyFindR/",
         tags: ["#HTML ", "#CSS ", "#JavaScript ", "#RESTful APIs"]
+      },
+      {
+        title: "Social Goals Tracker",
+        image: socialgoalstracker,
+        description:
+          "Web app that allows for users to create account, log in and post goals, with options to delete or update their posts at any time.",
+        githuburl: "https://github.com/SnapperGee/social-goals-tracker",
+        deployurl: "https://social-goals-tracker-73d7fdc5c8eb.herokuapp.com/",
+        tags: ["#Handlebars ", "#SCSS ", "#TypeScript ", "#Prisma ", "#Express.js ", "#Tailwind"]
+      },
+      {
+        title: "KryptoRun",
+        image: kryptorun,
+        description:
+          "React app that will enable for users to be able to create an account with MetaMask service, where once done, they will be able to exchange Ethereum currency with other users.",
+        githuburl: "https://github.com/dcollan/kryptorun",
+        deployurl: "https://kryptorun.com/",
+        tags: ["#JavaScript ", "#Solidity ", "#Shell ", "#Node.js ", "#Tailwind ", "#Vite"]
+      },
+      {
+        title: "Dcollan Headgear",
+        image: dcollan_headgear,
+        description:
+          "Mock ecommerce React web app that allows for users to make purchases using Stripe, where they will be taken to a transaction page that contains items placed in cart.",
+        githuburl: "https://github.com/dcollan/dcollan-headwear",
+        deployurl: "https://dcollan-headwear.vercel.app/",
+        tags: ["#JavaScript ", "#Babel ", "#Shell ", "#Node.js ", "#Sanity ", "#Stripe"]
+      },
+      {
+        title: "Charms CRUD App",
+        image: charms,
+        description:
+          "Beginner-level React CRUD app takes in posts, allows updating, and deleting from database. Any user is able to perform the action on all posts.",
+        githuburl: "https://github.com/dcollan/charms-crud-application",
+        deployurl: "https://charms.netlify.app/",
+        tags: ["#JavaScript ", "#Shell ", "#Node.js ", "#MongoDB ", "#HTML ", "#CSS"]
       }
     ];
   
